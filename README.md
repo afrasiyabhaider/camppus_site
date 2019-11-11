@@ -1,2 +1,2 @@
-# camppus_site
-This repository contains Camppus Frontend Wesite
+# Camppus Site
+This repository contains Camppus Frontend Website

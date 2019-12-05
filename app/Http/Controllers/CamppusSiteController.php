@@ -42,4 +42,8 @@ class CamppusSiteController extends Controller
     {
         return view('camppus_site.coming_soon');
     }
+    public function calender()
+    {
+        return view('camppus_site.calender');
+    }
 }

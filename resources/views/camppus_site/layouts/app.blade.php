@@ -204,8 +204,8 @@
                                     {{-- <li class="menu-item"><a href="scholarships.html">Scholarships</a></li>
                                     <li class="menu-item"><a href="athletics.html">Athletics</a></li>
                                     <li class="menu-item"><a href="give-to-kingster.html">Give To Kingster</a></li>
-                                    <li class="menu-item"><a href="alumni.html">Alumni</a></li>
-                                    <li class="menu-item"><a href="event-calendar.html">Event Calendar</a></li> --}}
+                                    {{-- <li class="menu-item"><a href="alumni.html">Alumni</a></li> --}}
+                                    <li class="menu-item"><a href="{{url('site/calender')}}">Event Calendar</a></li> 
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-has-children"><a href="#">Courses</a>
@@ -233,11 +233,11 @@
                 </div>
                 <div class="kingster-top-bar-right kingster-item-pdlr">
                     <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
-                        <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li>
-                        <li class="menu-item kingster-normal-menu"><a href="#">Calendar</a></li>
+                        {{-- <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li> --}}
+                        <li class="menu-item kingster-normal-menu"><a href="{{url('site/calender')}}">Calendar</a></li>
                         <li class="menu-item kingster-normal-menu"><a href="#">Portal</a></li>
                     </ul>
-                    <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">Support KU</a>
+                    <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">Support Campppus</a>
                 </div>
             </div>
         </div>
@@ -308,12 +308,12 @@
                                                 Post</a></li>
                                     </ul>
                                 </li> --}}
-                                <li class="menu-item menu-item-has-children" data-size="60"><a href="#" class="sf-with-ul-pre">Contact</a>
-                                    <ul class="sub-menu">
+                                <li class="menu-item menu-item-has-children" data-size="60"><a href="{{url('site/contact')}}" class="sf-with-ul-pre">Contact</a>
+                                    {{-- <ul class="sub-menu">
                                         <li class="menu-item"><a href="{{url('site/contact')}}">Contact</a></li>
                                         {{-- <li class="menu-item"><a href="contact-2.html">Contact 2</a></li>
-                                        <li class="menu-item"><a href="contact-3.html">Contact 3</a></li> --}}
-                                    </ul>
+                                        <li class="menu-item"><a href="contact-3.html">Contact 3</a></li> 
+                                    </ul> --}}
                                 </li>
                                 {{-- <li class="menu-item menu-item-has-children" data-size="60"><a href="portfolio-3-columns.html" class="sf-with-ul-pre">Portfolio</a>
                                     <ul class="sub-menu">
@@ -433,9 +433,9 @@
                                 </li>
                                 <li class="menu-item" data-size="60"><a href="give-to-kingster.html">Give To
                                         Kingster</a></li>
-                                <li class="menu-item" data-size="60"><a href="alumni.html">Alumni</a></li>
-                                <li class="menu-item" data-size="60"><a href="event-calendar.html">Event
-                                        Calendar</a></li> --}}
+                                {{-- <li class="menu-item" data-size="60"><a href="alumni.html">Alumni</a></li> --}}
+                                <li class="menu-item" data-size="60"><a href="{{url('site/calender')}}">Event
+                                        Calendar</a></li> 
                             </ul>
                         </li>
                         <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Courses</a>

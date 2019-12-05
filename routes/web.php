@@ -25,3 +25,4 @@ Route::get('site/universitylife', 'CamppusSiteController@universitylife');
 Route::get('site/aboutus', 'CamppusSiteController@aboutus');
 Route::get('site/camppus_tour', 'CamppusSiteController@camppus_tour');
 Route::get('site/coming_soon', 'CamppusSiteController@coming_soon');
+Route::get('site/calender', 'CamppusSiteController@calender');

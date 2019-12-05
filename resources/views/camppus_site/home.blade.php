@@ -192,7 +192,7 @@
                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align" id="div_1dd7_23">
-                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="{{asset('camppus_assets/upload/logo-white.png')}}" alt="" width="262" height="35" title="{{asset('camppus_assets/upload/logo-white.png')}}" /></div>
+                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_24"><img src="{{asset('camppus_assets\images\logo.png')}}" alt="" width="150" height="10" title="" /></div>
                             </div>
                         </div>
                         <div class="gdlr-core-pbf-element">
@@ -461,7 +461,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-66469">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="#" target="_self">Course List</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="{{url('site/course_list')}}" target="_self">Course List</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -473,7 +473,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-42777">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="#" target="_self">Course List1</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="{{url('site/course_list1')}}" target="_self">Course List1</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-51281">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="#" target="_self">Coming Soon</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="{{url('site/coming_soon')}}" target="_self">Coming Soon</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -497,7 +497,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-78243">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="#" target="_self">Gallery</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="{{url('site/gallery')}}" target="_self">Gallery</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -509,7 +509,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-14842">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_20"><a href="#" target="_self">Camppus Tour</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_20"><a href="{{url('site/camppus_tour')}}" target="_self">Camppus Tour</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -521,7 +521,7 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="gdlr-core-title-item-id-33183">
                                 <div class="gdlr-core-title-item-title-wrap clearfix">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_21"><a href="#" target="_self">University Life</a></h3>
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_21"><a href="{{url('site/universitylife')}}" target="_self">University Life</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -685,19 +685,19 @@
 
                     <div class="gdlr-core-tab-item-content-image-wrap clearfix">
                         <div class="gdlr-core-tab-item-image  gdlr-core-active" data-tab-id="1">
-                            <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg">
+                            {{-- <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg"> --}}
                                 <span class="gdlr-core-tab-item-image-background" id="span_1dd7_1"></span>
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
                         <div class="gdlr-core-tab-item-image " data-tab-id="2">
-                            <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg">
+                            {{-- <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg"> --}}
                                 <span class="gdlr-core-tab-item-image-background" id="span_1dd7_2"></span>
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
                         <div class="gdlr-core-tab-item-image " data-tab-id="3">
-                            <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg">
+                            {{-- <a class="gdlr-core-lightgallery gdlr-core-js " href="https://www.youtube.com/watch?v=C5pKtnmHTxg"> --}}
                                 <span class="gdlr-core-tab-item-image-background" id="span_1dd7_3"></span>
                                 <i class="fa fa-play"></i>
                             </a>
